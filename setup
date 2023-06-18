@@ -12,3 +12,4 @@ alias k=kubectl
 alias t=terraform
 alias g=gcloud
 
+[ -f /usr/bin/gcloud ] && gcloud config set accessibility/screen_reader False
