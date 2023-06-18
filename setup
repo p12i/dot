@@ -1,0 +1,14 @@
+#!/bin/bash
+
+cat <<EOF >> ~/.profile
+alias ll="ls -al --color"
+alias k=kubectl
+alias t=terraform
+alias g=gcloud
+EOF
+
+alias ll="ls -al --color"
+alias k=kubectl
+alias t=terraform
+alias g=gcloud
+
